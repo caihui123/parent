@@ -15,6 +15,7 @@ public class MyService {
     StudentMapper sm;
 
     //你好啊
+    //buhao
     @RequestMapping("/hello")
     public String hello(){
         Student student =new Student();
