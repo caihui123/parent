@@ -14,6 +14,7 @@ public class MyService {
     @Autowired
     StudentMapper sm;
 
+    //你好啊
     @RequestMapping("/hello")
     public String hello(){
         Student student =new Student();
